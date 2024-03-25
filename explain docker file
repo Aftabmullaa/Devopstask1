@@ -1,0 +1,6 @@
+Explain in detail this docker code LINE by LINE:
+
+FROM python:3.9-slim: FROM: Specifies the base image for your Docker image. In this case, it's python:3.9-slim, which is an official Python image from Docker Hub.
+WORKDIR /app : WORKDIR: Sets the working directory inside the container to /app
+COPY server.py . : COPY: Copies the server.py file from the host (your local machine in this case) to the /app directory inside the container. The . at the end of the command means to copy it to the current working directory (/app in this case).
+CMD ["python", "server.py"] CMD: Specifies the command to run when the container starts. Here, it runs the Python script server.py using the python interpreter.
