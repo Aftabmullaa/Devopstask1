@@ -77,15 +77,9 @@ Task -1 :
 
      ![20](https://github.com/Aftabmullaa/Devopstask1/assets/73701345/fd96063b-e8f7-4b29-a021-a25120e55fc6)
 
-   To check output paste public ip new tab: http://PublicIp:8000/
+   To check output paste public ip new tab: Eg: http://3.81.166.136:8000/
    
    ![21](https://github.com/Aftabmullaa/Devopstask1/assets/73701345/560006c1-0ee8-414f-8750-7e472b85a73d)
-
-
-
-
-
-   
 
 
 
