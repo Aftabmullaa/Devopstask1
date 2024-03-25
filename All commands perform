@@ -1,0 +1,12 @@
+# Commands requried for installing all dependencies :-
+sudo yum update -y
+sudo yum install python3 -y
+python3 --version
+sudo yum install docker -y
+sudo service docker start
+# Commands requried for to creat files server.py(Hello world code display without framework) and Dockerfile( to create a container) :-
+sudo vi server.py
+sudo vi Dockerfile
+# Commands requried for to Build the Docker image and Run the Docker container:-
+sudo docker build -t python-web-server .
+sudo docker run -d -p 8000:8000 python-web-server
